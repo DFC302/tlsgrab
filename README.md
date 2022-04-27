@@ -6,6 +6,11 @@ Grab domains from TLS certificates and pretty print them to the screen.
 * httpx
 * jq
 
+# installation
+```
+git clone https://github.com/DFC302/tlsgrab.git
+```
+
 # usage
 ```
 echo <cidr> | bash tlsgrab.sh
