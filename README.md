@@ -17,3 +17,5 @@ echo <cidr> | bash tlsgrab.sh
 or
 cat <file-with-cidrs> | bash tlsgrab.sh
 ```
+
+You can set timeout and thread options within the script itself. Default is timeout of 2 seconds with 50 threads.
